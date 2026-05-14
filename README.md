@@ -269,12 +269,6 @@ Blocked INSERT operation:
 INSERT INTO devices VALUES (gen_random_uuid(), 'Test Device', 'Lagos');
 ```
 
-![Analyst Denied](images/analyst_denied.png)
-
-This demonstrates RBAC privilege enforcement through restricted write access.
-
----
-
 ## Writer Access
 
 ```powershell
@@ -308,7 +302,7 @@ The auditor role is responsible for monitoring and managing query logs.
 SELECT * FROM query_logs;
 ```
 
-![Auditor Logs](images/auditor_logs.png)
+![Auditor Logs](images/auditors_logs.png)
 
 This demonstrates observability and audit-level database access.
 
