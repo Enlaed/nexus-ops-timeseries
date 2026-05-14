@@ -198,7 +198,7 @@ Nexus_ops_timeseries/
     ├── admin_login.png
     ├── analyst_select.png
     ├── writer_insert.png
-    └── auditor_logs.png
+    └── auditors_logs.png
 ```
 
 ---
